@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Persistence</string>
+    <string name="counter">0</string>
+    <string name="increase_button">Increase</string>
+    <string name="decrease_button">Decrease</string>
+    <string name="button_save">Save Counter</string>
+    <string name="button_load">Load Counter</string>
+</resources>
