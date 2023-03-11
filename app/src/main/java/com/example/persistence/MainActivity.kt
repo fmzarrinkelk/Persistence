@@ -49,12 +49,15 @@ class MainActivity : AppCompatActivity() {
 //          ...
 //      }
 
-        onBackPressedDispatcher.addCallback(this /* lifecycle owner */, object : OnBackPressedCallback(true) {
-            override fun handleOnBackPressed() {
-                viewModel.saveCounter()
-                finish()
-            }
-        })
+//        onBackPressedDispatcher.addCallback(
+//            this /* lifecycle owner */,
+//            object : OnBackPressedCallback(true) {
+//                override fun handleOnBackPressed() {
+//                    viewModel.saveCounter()
+//                    finish()
+//                }
+//            }
+//        )
 
 //        viewModel.setCount(
 //            savedInstanceState?.getInt(COUNTER_KEY, INITIAL_COUNTER_VALUE) ?: INITIAL_COUNTER_VALUE
